@@ -9,7 +9,7 @@ My current title is Environmental Professional but my duties involve screening e
 
 ## Projects
 
-- [sample-location-webmap](r-lyon.github.io/sample-location-webmap.md)
+- [sample-location-webmap]([r-lyon.github.io/sample-location-webmap.md](https://github.com/r-lyon/sample-location-webmap))
 
 ## Skills
 
