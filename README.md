@@ -9,7 +9,7 @@ My current title is Environmental Professional but my duties involve screening e
 
 ## Projects
 
-- [Project 1](projects/project1.md)
+- [sample-location-webmap](projects/sample-location-webmap.md)
 - [Project 2](projects/project2.md)
 
 ## Skills
