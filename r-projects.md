@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: page
 title: "R Projects"
 permalink: /r-projects/
 author_profile: true
