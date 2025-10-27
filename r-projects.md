@@ -1,11 +1,13 @@
 ---
-layout: page
+layout: archive
 title: "R Projects"
 permalink: /r-projects/
 author_profile: true
 ---
 
-This page highlights several R scripts and tools I’ve developed for environmental and hydrologic data analysis.
+## Featured R Workflows
+
+This page highlights selected R scripts and reproducible workflows for environmental and hydrologic data analysis.
 
 ###  PFAS Stacked Bar Plot – Sandia Wetland
 This R script processes and visualizes PFAS (Per- and Polyfluoroalkyl Substances) concentration data collected from monitoring sites aassociated with the Sandia Wetland. The workflow demonstrates data wrangling, integration, and visualization skills using the tidyverse ecosystem.
