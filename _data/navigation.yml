@@ -13,7 +13,7 @@ main:
   - title: "Projects"
     url: /projects/
   - title: "R Projects"
-    url: /r-projects/
+    url: https://r-lyon.github.io/r-projects/
   - title: "Contact"
     url: /contact/
   - title: "CV"
