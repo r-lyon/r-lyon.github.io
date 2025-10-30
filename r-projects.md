@@ -11,9 +11,6 @@ This page highlights selected R scripts and reproducible workflows for environme
 
 ###  PFAS Stacked Bar Plot – Sandia Wetland
 This R script creates a stacked bar chart showing the concentrations of PFAS chemicals detected at different sampling sites in Upper Sandia Canyon. It combines data from alluvial wells and surface water gaging stations, focusing on results collected from 2024 stormflow, baseflow, and groundwater sampling events. All data are publicly available at intellusnm.com
-   
-
-Reproducible workflows for environmental data analysis
 
 - **Script location:** [`PFAS/code/pfas_analysis.R`](https://github.com/r-lyon/Environmental-R-Scripts/tree/master/PFAS/code)  
 - **Example output:**  
