@@ -10,48 +10,8 @@ author_profile: true
 This page highlights selected R scripts and reproducible workflows for environmental and hydrologic data analysis.
 
 ###  PFAS Stacked Bar Plot – Sandia Wetland
-This R script processes and visualizes PFAS (Per- and Polyfluoroalkyl Substances) concentration data collected from monitoring sites aassociated with the Sandia Wetland. The workflow demonstrates data wrangling, integration, and visualization skills using the tidyverse ecosystem.
-
-Data Import & Cleaning
-
-Reads PFAS monitoring data from CSV and Excel files.
-
-Standardizes column names with janitor::clean_names().
-
-Filters for regulatory samples analyzed with EPA Method 1633.
-
-Data Integration
-
-Combines alluvial and gage datasets.
-
-Filters only detected PFAS compounds.
-
-Joins with a reference table of PFAS parameter codes and short names.
-
-Selects sampling dates close in time to allow comparison of PFAS sources under different hydrologic conditions.
-
-Visualization
-
-Creates a stacked bar chart of PFAS concentrations (ggplot2).
-
-Groups results by sampling location and sample type (stormflow, baseflow, and shallow alluvial groundwater within the Sandia wetland).
-
-Uses faceting to compare across sample types and custom color palettes for clarity.
-
-Adds descriptive labels, legends, and rotated axis text for readability.
-
-Output
-
-Saves the final plot as a high-resolution PNG for reporting or presentations.
-
-Skills Demonstrated
-Data wrangling with dplyr
-
-Date handling with lubridate
-
-Custom plotting with ggplot2
-
-Color scaling with viridisLite
+This R script creates a stacked bar chart showing the concentrations of PFAS chemicals detected at different sampling sites in Upper Sandia Canyon. It combines data from alluvial wells and surface water gaging stations, focusing on results collected during 2024 stormflow, baseflow, and groundwater events. All data is publicly available at intellusnm.com
+   
 
 Reproducible workflows for environmental data analysis
 
