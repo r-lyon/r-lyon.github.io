@@ -9,14 +9,14 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # Currently available options are "default", "air"
-title                    : "R. Lyon / Professional Website"
+title                    : "Environmental Data Visualization & Geospatial Analysis Portfolio"
 title_separator          : "-"
 name                     : &name "R. Lyon"
 description              : &description "R. Lyon's portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://r-lyon.github.io # The base hostname & protocol for your site e.g. "https://r-lyon.github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "r-lyon/r-lyon.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -32,6 +32,17 @@ author:
   employer         : "Tetra Tech/T2S"
   uri              : "https://tech2.solutions/"
   email            : "ralyon3@gmail.com" 
+
+# Site navigation links
+main:
+  - title: "Home"
+    url: /
+  - title: "R Projects"
+    url: /R-projects/
+  - title: "Webmaps"
+    url: /webmap/
+  - title: "CV"
+    url: /cv/
 
   # Academic websites
   academia         : # URL
@@ -357,14 +368,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-# Site navigation links
-nav:
-  - title: "Home"
-    url: /
-  - title: "R Projects"
-    url: /R-projects/
-  - title: "Webmaps"
-    url: /webmap/
-  - title: "CV"
-    url: /cv/
