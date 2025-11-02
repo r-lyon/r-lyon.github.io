@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: archive
 title: "Sample Location Webmap"
 permalink: /webmap/
+author_profile: true
 ---
 
 ## Interactive Map of Environmental Sample Locations
