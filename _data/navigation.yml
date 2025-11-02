@@ -10,10 +10,10 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Projects"
-    url: /projects/
   - title: "R Projects"
     url: https://r-lyon.github.io/r-projects/
+  - title: "Webmaps"
+    url: /webmap/
   - title: "Contact"
     url: /contact/
   - title: "CV"
