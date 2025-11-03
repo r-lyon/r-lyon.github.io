@@ -34,15 +34,15 @@ author:
   email            : "ralyon3@gmail.com" 
 
 # Site navigation links
-main:
-  - title: "Home"
-    url: /
-  - title: "R Projects"
-    url: /R-projects/
-  - title: "Webmaps"
-    url: /webmap/
-  - title: "CV"
-    url: /cv/
+# main:
+#   - title: "Home"
+#     url: /
+#   - title: "R Projects"
+#     url: /R-projects/
+#   - title: "Webmaps"
+#     url: /webmap/
+#   - title: "CV"
+#     url: /cv/
 
   # Academic websites
   academia         : # URL
