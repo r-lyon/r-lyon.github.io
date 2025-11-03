@@ -9,6 +9,6 @@ author_profile: true
 
 You can explore the map of stormwater sampling locations for 2023 here:
 
-[View Interactive Map](./assets/webmap/index.html){:target="_blank"}
+[View Interactive Map](/assets/webmap/index.html){:target="_blank"}
 
-![Map Preview](./assets/webmap/lib/sample_map_preview.png)
+![Map Preview](/assets/webmap/lib/sample_map_preview.png)
