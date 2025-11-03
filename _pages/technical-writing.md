@@ -10,4 +10,4 @@ author_profile: true
 ### Reports
 - **Sandia Wetland Performance Report (2024)** – Lead author responsible for all text and figures; this annual report evaluates the Sandia wetland’s stability and effectiveness at mitigating contaminant migration, including chromium, PCBs, and stormwater-borne pollutants. Monitoring results show that the wetland remains physically and chemically stable following grade-control structure installation, with consistent water levels, reduced contaminant mobility, and healthy vegetation.
 
-[Download the 2024 Sandia Wetland Performance Report](./assets/reports/Sandia_Wetland_Report_2024.pdf)
+[Download the 2024 Sandia Wetland Performance Report](/assets/reports/Sandia_Wetland_Report_2024.pdf)
