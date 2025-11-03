@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # Currently available options are "default", "air"
-title                    : "Environmental Data Visualization & Geospatial Analysis Portfolio"
+title                    : "Environmental Scientist & GIS Specialist"
 title_separator          : "-"
 name                     : &name "R. Lyon"
 description              : &description "R. Lyon's portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
