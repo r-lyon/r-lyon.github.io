@@ -11,9 +11,9 @@ main:
   - title: "About"
     url: /about/
   - title: "Technical Writing"
-    url: /reports/
+    url: /technical-writing/
   - title: "R Projects"
-    url: https://r-lyon.github.io/r-projects/
+    url: /r-projects/
   - title: "Webmaps"
     url: /webmap/
   - title: "Contact"
