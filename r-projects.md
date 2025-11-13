@@ -16,7 +16,7 @@ This R script creates a stacked bar chart showing the concentrations of PFAS che
 - **Example output:**  
 ![PFAS Summary](https://github.com/r-lyon/Environmental-R-Scripts/blob/master/PFAS/output/stacked_bar/PFAS_Upper_Sandia_Stacked_Bar_Plot_2024.png?raw=true)
 
-Figure: Stacked bar plot of PFAS concentrations in Upper Sandia Canyon. This visualization compares detected PFAS compounds across monitoring locations, grouped by hydrologic condition: stormflow (6/20/2024), baseflow (7/30/2024), and shallow alluvial groundwater (10/24/2024). Sampling dates were chosen close in time to help assess potential PFAS sources within the Sandia wetland system. The stacked format highlights both the relative contribution of individual PFAS chemicals and the overall concentration profile at each site.
+<small>Figure: Stacked bar plot of PFAS concentrations in Upper Sandia Canyon. This visualization compares detected PFAS compounds across monitoring locations, grouped by hydrologic condition: stormflow (6/20/2024), baseflow (7/30/2024), and shallow alluvial groundwater (10/24/2024). Sampling dates were chosen close in time to help assess potential PFAS sources within the Sandia wetland system. The stacked format highlights both the relative contribution of individual PFAS chemicals and the overall concentration profile at each site...</small>
 ---
 
 ### Hardness Metal Screening – Surface Water
@@ -29,8 +29,8 @@ The criteria are expressed as a function of **hardness (mg CaCO₃/L)** and appl
 
 Acute and chronic criteria (in µg/L) are calculated using:  
 
-Acute: exp(mA * ln(hardness) + bA) * CF
-Chronic: exp(mC * ln(hardness) + bC) * CF
+Acute: exp(`mA` * ln(hardness) + `bA`) * `CF`
+Chronic: exp(`mC` * ln(hardness) + `bC`) * `CF`
 
 Where:  
 - `mA` / `bA` and `mC` / `bC` are metal-specific constants  
