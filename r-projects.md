@@ -5,7 +5,7 @@ permalink: /r-projects/
 author_profile: true
 ---
 
-## Featured R Workflows
+# Featured R Workflows
 
 This page highlights selected R scripts and reproducible workflows for environmental and hydrologic data analysis.
 
@@ -19,7 +19,7 @@ This R script creates a stacked bar chart showing the concentrations of PFAS che
 <small>Figure: Stacked bar plot of PFAS concentrations in Upper Sandia Canyon. This visualization compares detected PFAS compounds across monitoring locations, grouped by hydrologic condition: stormflow (6/20/2024), baseflow (7/30/2024), and shallow alluvial groundwater (10/24/2024). Sampling dates were chosen close in time to help assess potential PFAS sources within the Sandia wetland system. The stacked format highlights both the relative contribution of individual PFAS chemicals and the overall concentration profile at each site...</small>
 ---
 
-### Hardness Metal Screening – Surface Water
+## Hardness Metal Screening – Surface Water
 This R script screens surface water samples for hardness-dependent metals against both **acute** and **chronic aquatic life criteria** using New Mexico Environment Department (NMED) surface water quality standards (20.6.4.900 NMAC).  https://www.env.nm.gov/surface-water-quality/wp-content/uploads/sites/18/2025/04/20.006.0004-NMAC-22May25.pdf
 
 The criteria are expressed as a function of **hardness (mg CaCO₃/L)** and apply within specific hardness ranges:  
@@ -30,6 +30,7 @@ The criteria are expressed as a function of **hardness (mg CaCO₃/L)** and appl
 Acute and chronic criteria (in µg/L) are calculated using:  
 
 Acute: exp(`mA` * ln(hardness) + `bA`) * `CF`
+
 Chronic: exp(`mC` * ln(hardness) + `bC`) * `CF`
 
 Where:  
