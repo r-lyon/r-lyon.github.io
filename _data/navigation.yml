@@ -19,7 +19,7 @@ main:
     children:
       - title: "PFAS Stacked Bar Plot"
         url: /projects/pfas/
-      - title: "Hardness Screening"
+      - title: "Hardness-Dependent Metals Screening"
         url: /projects/hardness-screening/
       - title: "Hydrograph + Hyetograph"
         url: /projects/hydrograph/

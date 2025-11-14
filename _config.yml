@@ -33,6 +33,9 @@ author:
   uri              : "https://tech2.solutions/"
   email            : "ralyon3@gmail.com" 
 
+navigation:
+  main: navigation.yml
+  
 # Site navigation links
 # main:
 #   - title: "Home"
