@@ -29,13 +29,13 @@ author:
   bio              : "Environmental scientist and GIS specialist with extensive experience in watershed monitoring, vegetation & geomorphic analysis, and environmental data visualization. 
   Skilled in ArcGIS, LiDAR, and R, with a passion for turning complex data into actionable insights. Based in the Jemez Mountains, NM."
   location         : "Jemez Springs, NM"
-  employer         : "Tetra Tech/T2S"
-  uri              : "https://tech2.solutions/"
+  #employer         : "Tetra Tech/T2S"
+  #uri              : "https://tech2.solutions/"
   email            : "ralyon3@gmail.com" 
 
 navigation:
   main: navigation.yml
-  
+
 # Site navigation links
 # main:
 #   - title: "Home"

@@ -6,7 +6,7 @@ permalink: /projects/hardness-screening/
 
 ## Hardness-Dependent Metal Screening
 
-This R script screens surface water samples for hardness-dependent metals against both **acute** and **chronic aquatic life criteria** using New Mexico Environment Department (NMED) surface water quality standards (20.6.4.900 NMAC).  https://www.env.nm.gov/surface-water-quality/wp-content/uploads/sites/18/2025/04/20.006.0004-NMAC-22May25.pdf
+This R script screens surface water samples for hardness-dependent metals against both **acute** and **chronic aquatic life criteria** using New Mexico Environment Department (NMED) surface water quality standards ([20.6.4.900 NMAC](https://www.env.nm.gov/surface-water-quality/wp-content/uploads/sites/18/2025/04/20.006.0004-NMAC-22May25.pdf)).
 
 The criteria are expressed as a function of **hardness (mg CaCO₃/L)** and apply within specific hardness ranges:  
 
