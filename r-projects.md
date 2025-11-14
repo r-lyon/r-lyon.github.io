@@ -10,6 +10,6 @@ author_profile: true
 Explore individual project pages:
 
 - [PFAS Stacked Bar Plot](/projects/pfas/)
-- [Hardness Screening](/projects/hardness-screening/)
+- [Hardness-Dependent Metal Screening](/projects/hardness-screening/)
 - [Hydrograph + Hyetograph](/projects/hydrograph/)
 - [Gage Screening Tool](/projects/gage-screening/)

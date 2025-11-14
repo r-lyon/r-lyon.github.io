@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Technical Writing & Publications"
 permalink: /technical-writing/
 author_profile: true
