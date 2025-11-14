@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: "Sample Location Webmap"
 permalink: /webmap/
 author_profile: true
