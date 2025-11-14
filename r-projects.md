@@ -1,13 +1,13 @@
 ---
 layout: archive
-title: "R Projects"
+title: "Environmental Data Analysis with R"
 permalink: /r-projects/
 author_profile: true
 ---
 
-## R Analysis Workflows
+## R Workflows
 
-Explore individual project pages:
+Selected R scripts for water quality, wetland, and hydrologic data analysis.
 
 - [PFAS Stacked Bar Plot](/projects/pfas/)
 - [Hardness-Dependent Metal Screening](/projects/hardness-screening/)
