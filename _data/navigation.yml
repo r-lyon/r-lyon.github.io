@@ -10,13 +10,28 @@
 main:
   - title: "About"
     url: /about/
+
   - title: "Technical Writing"
     url: /technical-writing/
+
   - title: "R Projects"
     url: /r-projects/
+    children:
+      - title: "PFAS Stacked Bar Plot"
+        url: /projects/pfas/
+      - title: "Hardness Screening"
+        url: /projects/hardness-screening/
+      - title: "Hydrograph + Hyetograph"
+        url: /projects/hydrograph/
+      - title: "Gage Screening Tool"
+        url: /projects/gage-screening/
+
   - title: "Webmaps"
     url: /webmap/
+
   - title: "Contact"
     url: /contact/
+
   - title: "CV"
     url: /cv/
+
