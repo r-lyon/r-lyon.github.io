@@ -13,3 +13,4 @@ Selected R scripts for water quality, wetland, and hydrologic data analysis.
 - [Hardness-Dependent Metal Screening](/projects/hardness-screening/)
 - [Hydrograph + Hyetograph](/projects/hydrograph/)
 - [Gage Screening Tool](/projects/gage-screening/)
+- [Hyperspectral PCA Dimensionality Reduction](/projects/pca-hyperspectral/)
