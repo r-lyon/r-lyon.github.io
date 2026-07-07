@@ -94,7 +94,7 @@ writeRaster(hs_pca_raster,
 ```
 
 #### Spatial Analysis Results
-![Compressed PCA Spatial Layer](../../images/projects/pca_raster_output.png)
+<img src="https://github.com/r-lyon/Environmental-R-Scripts/blob/master/HyperspectralPCA/img/sandia_pca.png?raw=true" alt="PCA GeoTiff" width="450">
 
 ---
 
