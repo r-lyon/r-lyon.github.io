@@ -17,6 +17,8 @@ main:
   - title: "R Projects"
     url: /r-projects/
     children:
+      - title: "Hyperspectral PCA"
+        url: /portfolio/pca-hyperspectral/
       - title: "PFAS Stacked Bar Plot"
         url: /projects/pfas/
       - title: "Hardness-Dependent Metals Screening"
