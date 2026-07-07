@@ -5,6 +5,8 @@ subtitle: "Compressing Multi-Band Raster Datasets using the terra Package"
 permalink: /projects/pca-hyperspectral/
 ---
 
+> **View the Complete Code & Data:** You can view the full R script, raw dataset, and processing workflow for this project in my [Environmental-R-Scripts Repository](https://github.com/r-lyon/Environmental-R-Scripts/tree/main/HyperspectralPCA).
+
 ## Executive Summary
 Hyperspectral sensors record hundreds of narrow, contiguous spectral bands, capturing incredibly detailed surface signatures. However, these adjacent bands are often highly correlated, leading to significant data redundancy and immense computational overhead. 
 
@@ -72,7 +74,7 @@ data.frame(PC = 1:length(variance_explained), Variance = variance_explained) %>%
 ```
 
 #### Scree Plot Output
-![Scree Plot Analysis](https://github.com/r-lyon/Environmental-R-Scripts/blob/master/HyperspectralPCA/img/sandia_pca_scree_plot.png)
+![Scree Plot Analysis](https://github.com/r-lyon/Environmental-R-Scripts/blob/master/HyperspectralPCA/img/sandia_pca_scree_plot.png?raw=true)
 
 > **Key Finding:** Looking at the elbow of the plot above, the vast majority of spectral variance is captured within the first few components. Adding components beyond PC3 yields diminishing information returns.
 
