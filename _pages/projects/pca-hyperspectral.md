@@ -72,7 +72,7 @@ data.frame(PC = 1:length(variance_explained), Variance = variance_explained) %>%
 ```
 
 #### Scree Plot Output
-![Scree Plot Analysis](../../images/projects/pca_scree_plot.png)
+![Scree Plot Analysis](https://github.com/r-lyon/Environmental-R-Scripts/blob/master/HyperspectralPCA/img/sandia_pca_scree_plot.png)
 
 > **Key Finding:** Looking at the elbow of the plot above, the vast majority of spectral variance is captured within the first few components. Adding components beyond PC3 yields diminishing information returns.
 
