@@ -57,7 +57,7 @@ summary(pca_model)
 # Calculate the proportion of variance explained by each eigenvalue
 variance_explained <- (pca_model$sdev^2) / sum(pca_model$sdev^2)
 ```
-
+### 4. Scree Plot
 To determine how many principal components are necessary to capture meaningful variance, we isolate the top 10 components and construct a **Scree Plot** to identify the inflection point ("elbow").
 
 ```r
@@ -73,15 +73,13 @@ data.frame(PC = 1:length(variance_explained), Variance = variance_explained) %>%
   theme_minimal()
 ```
 
-#### Scree Plot Output
-```html
 <img src="https://github.com/r-lyon/Environmental-R-Scripts/blob/master/HyperspectralPCA/img/sandia_pca_scree_plot.png?raw=true" alt="Scree Plot Analysis" width="450">
 
 > **Key Finding:** Looking at the elbow of the plot above, the vast majority of spectral variance is captured within the first few components. Adding components beyond PC3 yields diminishing information returns.
 
 ---
 
-### 4. Spatial Prediction & GeoTIFF Export
+### 5. Spatial Prediction & GeoTIFF Export
 Once the statistical weights are generated, the model coefficients are predicted back across every single pixel in the original, full-resolution hyperspectral raster grid. By defining `index = 1:3`, we strictly output a lightweight, three-layered spatial image representing PC1, PC2, and PC3.
 
 ```r
